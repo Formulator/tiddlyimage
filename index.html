@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>TiddlyImage — a non-linear personal web notebook</title>
+<title>TiddlyImage — Create and learn using image led stories</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -159,6 +159,8 @@ Error message and password prompt
 
 <li>$:/palette</li>
 
+<li>$:/SiteSubtitle</li>
+
 <li>$:/SiteTitle</li>
 
 <li>$:/state/tab--1963855381</li>
@@ -199,10 +201,11 @@ Error message and password prompt
 {"created":"20230101092403088","title":"$:/GitHub/Username","text":"Formulator","modified":"20230101092405323"},
 {"title":"$:/isEncrypted","text":"no"},
 {"created":"20230101092627835","title":"$:/palette","text":"$:/palettes/Twilight","modified":"20230101092627835"},
+{"created":"20230101092840468","title":"$:/SiteSubtitle","text":"Create and learn using image led stories","modified":"20230101093035816"},
 {"created":"20230101092600748","title":"$:/SiteTitle","text":"TiddlyImage","modified":"20230101092605242"},
 {"created":"20230101092623589","title":"$:/state/tab--1963855381","text":"$:/themes/tiddlywiki/vanilla/themetweaks","modified":"20230101092644153"},
-{"created":"20230101092116536","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Appearance","modified":"20230101092729221"},
-{"created":"20230101092121069","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/GitHub","modified":"20230101092121069"},
+{"created":"20230101092116536","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Saving","modified":"20230101092803835"},
+{"created":"20230101092121069","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/General","modified":"20230101092809125"},
 {"title":"$:/status/RequireReloadDueToPluginChange","text":"no"},
 {"created":"20230101092113194","title":"$:/StoryList","text":"","list":"$:/ControlPanel GettingStarted","modified":"20230101092113194"},
 {"title":"$:/themes/tiddlywiki/snowwhite","name":"Snow White","author":"JeremyRuston","core-version":">=5.0.0","plugin-type":"theme","description":"Emphasises individual tiddlers","dependents":"$:/themes/tiddlywiki/vanilla","plugin-priority":"0","version":"5.2.5","type":"application/json","text":"{\"tiddlers\":{\"$:/themes/tiddlywiki/snowwhite/base\":{\"title\":\"$:/themes/tiddlywiki/snowwhite/base\",\"tags\":\"[[$:/tags/Stylesheet]]\",\"text\":\"\\\\define sidebarbreakpoint-minus-one()\\n\u003C$text text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]subtract[1]addsuffix[px]] ~[{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}] }}}/>\\n\\\\end\\n\\n\\\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\\n\\n.tc-sidebar-header {\\n\\ttext-shadow: 0 1px 0 \u003C\u003Ccolour sidebar-foreground-shadow>>;\\n}\\n\\n.tc-tiddler-info {\\n\\t\u003C\u003Cbox-shadow \\\"inset 1px 2px 3px rgba(0,0,0,0.1)\\\">>\\n}\\n\\n@media screen {\\n\\t.tc-tiddler-frame {\\n\\t\\t\u003C\u003Cbox-shadow \\\"1px 1px 5px rgba(0, 0, 0, 0.3)\\\">>\\n\\t}\\n}\\n\\n@media (max-width: \u003C\u003Csidebarbreakpoint-minus-one>>) {\\n\\t.tc-tiddler-frame {\\n\\t\\t\u003C\u003Cbox-shadow none>>\\n\\t}\\n}\\n\\n.tc-page-controls button svg, .tc-tiddler-controls button svg, .tc-topbar button svg {\\n\\t\u003C\u003Ctransition \\\"fill 150ms ease-in-out\\\">>\\n}\\n\\n.tc-tiddler-controls button.tc-selected,\\n.tc-page-controls button.tc-selected {\\n\\t\u003C\u003Cfilter \\\"drop-shadow(0px -1px 2px rgba(0,0,0,0.25))\\\">>\\n}\\n\\n.tc-tiddler-frame input.tc-edit-texteditor,\\n.tc-tiddler-frame select.tc-edit-texteditor {\\n\\t\u003C\u003Cbox-shadow \\\"inset 0 1px 8px rgba(0, 0, 0, 0.15)\\\">>\\n}\\n\\n.tc-edit-tags {\\n\\t\u003C\u003Cbox-shadow \\\"inset 0 1px 8px rgba(0, 0, 0, 0.15)\\\">>\\n}\\n\\n.tc-tiddler-frame .tc-edit-tags input.tc-edit-texteditor {\\n\\t\u003C\u003Cbox-shadow \\\"none\\\">>\\n\\tborder: none;\\n\\toutline: none;\\n}\\n\\ntextarea.tc-edit-texteditor {\\n\\tfont-family: {{$:/themes/tiddlywiki/vanilla/settings/editorfontfamily}};\\n}\\n\\ncanvas.tc-edit-bitmapeditor  {\\n\\t\u003C\u003Cbox-shadow \\\"2px 2px 5px rgba(0, 0, 0, 0.5)\\\">>\\n}\\n\\n.tc-drop-down {\\n\\tborder-radius: 4px;\\n\\t\u003C\u003Cbox-shadow \\\"2px 2px 10px rgba(0, 0, 0, 0.5)\\\">>\\n}\\n\\n.tc-block-dropdown {\\n\\tborder-radius: 4px;\\n\\t\u003C\u003Cbox-shadow \\\"2px 2px 10px rgba(0, 0, 0, 0.5)\\\">>\\n}\\n\\n.tc-modal {\\n\\tborder-radius: 6px;\\n\\t\u003C\u003Cbox-shadow \\\"0 3px 7px rgba(0,0,0,0.3)\\\">>\\n}\\n\\n.tc-modal-footer {\\n\\tborder-radius: 0 0 6px 6px;\\n\\t\u003C\u003Cbox-shadow \\\"inset 0 1px 0 #fff\\\">>;\\n}\\n\\n\\n.tc-alert {\\n\\tborder-radius: 6px;\\n\\t\u003C\u003Cbox-shadow \\\"0 3px 7px rgba(0,0,0,0.6)\\\">>\\n}\\n\\n.tc-notification {\\n\\tborder-radius: 6px;\\n\\t\u003C\u003Cbox-shadow \\\"0 3px 7px rgba(0,0,0,0.3)\\\">>\\n\\ttext-shadow: 0 1px 0 rgba(255,255,255, 0.8);\\n}\\n\\n.tc-sidebar-lists .tc-tab-set .tc-tab-divider {\\n\\tborder-top: none;\\n\\theight: 1px;\\n\\t\u003C\u003Cbackground-linear-gradient \\\"left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%\\\">>\\n}\\n\\n.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {\\n\\t\u003C\u003Cbackground-linear-gradient \\\"left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%\\\">>\\n}\\n\\n.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {\\n\\t\u003C\u003Cbackground-linear-gradient \\\"left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%\\\">>\\n}\\n\\n.tc-message-box img {\\n\\t\u003C\u003Cbox-shadow \\\"1px 1px 3px rgba(0,0,0,0.5)\\\">>\\n}\\n\\n.tc-plugin-info {\\n\\t\u003C\u003Cbox-shadow \\\"1px 1px 3px rgba(0,0,0,0.5)\\\">>\\n}\\n\"}}}"},

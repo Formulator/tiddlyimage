@@ -47,8 +47,8 @@
         - Option to export the JSON pertinent to that input episode.
         - Auto generate a visual narrative tiddler from the group.
 - Create interface tiddler to easily edit & enrich tiddlers with annotations.
-        - Abstract away from the user the complexity of `fields`, `file types`, `uuids` etc.
-        - Drag & drop to rearrange elements of a narrative tiddler.
+     - Abstract away from the user the complexity of `fields`, `file types`, `uuids` etc.
+     - Drag & drop to rearrange elements of a narrative tiddler.
 - Develop engaging data presentations.
     - Tiddlers to auto display rotating narratives.
     - Develop interactive gamified interface.
